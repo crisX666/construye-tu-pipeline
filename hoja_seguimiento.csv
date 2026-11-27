@@ -5,8 +5,8 @@ CP-03,"20 uds, sin cliente frecuente (10 %)",100,20,No,1800.00,1800.00,APROBADO,
 CP-04,"20 uds, cliente frecuente (15 %)",100,20,Sí,1700.00,1700.00,APROBADO,
 CP-05,"Límite: 9 uds, sin cliente frecuente",100,9,No,900.00,900.00,APROBADO,
 CP-06,"Límite: 9 uds, cliente frecuente",100,9,Sí,855.00,855.00,APROBADO,
-CP-07,"Límite: 10 uds, sin cliente frecuente",100,10,No,900.00,1000.00,FALLIDO,BUG-001
-CP-08,"Límite: 10 uds, cliente frecuente",100,10,Sí,850.00,950.00,FALLIDO,BUG-002
+CP-07,"Límite: 10 uds, sin cliente frecuente",100,10,No,900.00,900.00,APROBADO,BUG-001
+CP-08,"Límite: 10 uds, cliente frecuente",100,10,Sí,850.00,850.00,APROBADO,BUG-002
 CP-09,"Límite: 11 uds, sin cliente frecuente",100,11,No,990.00,990.00,APROBADO,
 CP-10,"Límite: 11 uds, cliente frecuente",100,11,Sí,935.00,935.00,APROBADO,
 CP-11,"Importe mínimo: precio 0.01, 1 ud",0.01,1,No,0.01,0.01,APROBADO,

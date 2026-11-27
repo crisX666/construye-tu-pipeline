@@ -3,7 +3,7 @@ def calcular_total(precio, cantidad, cliente_frecuente=False):
         raise ValueError("precio y cantidad deben ser positivos")
     subtotal = precio * cantidad
     descuento = 0
-    if cantidad > 10:  # revisar el límite
+    if cantidad >= 10:  # RN-02: 10 o más unidades
         descuento = 0.10
     if cliente_frecuente:
         descuento += 0.05
